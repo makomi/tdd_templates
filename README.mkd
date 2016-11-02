@@ -1,0 +1,20 @@
+# TDD templates
+
+a collection of ready-to-use code skeletons, each setup for a specific combination of programming language and unit testing framework
+
+
+## License
+
+**MIT**
+
+See [LICENSE][license-file] for details.
+
+
+## Source
+
+You can get the newest version from the [project's website][project-website].
+
+
+
+[license-file]: LICENSE
+[project-website]: http://github.com/makomi/tdd_templates/
