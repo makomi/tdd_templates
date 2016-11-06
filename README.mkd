@@ -29,21 +29,28 @@ Will compile and execute the application
 
 ## Getting started
 
-This is a short description of how the typical TDD cycle of writing a test, writing the function code, and refactoring looks like:
+Setup:
+
+1. Clone the repo: `$ git clone https://github.com/makomi/tdd_templates.git`
+2. Enter a template's folder: `$ cd tdd_templates/C_cpputest`
+
+A typical TDD cycle consisting of writing a test, writing the function code, and refactoring:
 
 1. Write a test in `./test/UnitTests.cc`
 2. Compile and run the test: `$ make test`
 3. Write function code in `./src/module.h` and `./src/module.c`
 4. Compile and run the test: `$ make test`
-5. Refactor
-6. ...
-7. Delete temporary files: `$ make clean`
+5. Refactor if the test passes
+6. Repeat
 
 In order to run the application, you will have to also follow these steps:
 
 1. Write application code in `./src/main.c`
-2. Compile and run the application: `make main`
-3. Delete temporary files: `$ make clean`
+2. Compile and run the application: `$ make main`
+
+At the end you might want to delete the temporary files: `$ make clean`
+
+Have a look at the [TDD examples][tdd_examples] repository to see these templates in action.
 
 
 ## Contributing
@@ -70,6 +77,7 @@ You can get the newest version from the [project's website][project-website].
 
 
 
+[tdd_examples]: https://github.com/makomi/tdd_examples/
 [issues]: https://github.com/makomi/tdd_templates/issues
 [fork]: https://help.github.com/articles/fork-a-repo/
 [pr]: https://help.github.com/articles/creating-a-pull-request/
