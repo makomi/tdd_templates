@@ -1,7 +1,8 @@
 # C with CppUTest
 
-language: `C`  
-framework: `CppUTest`
+Programming Language: `C`  
+Testing Framework: `CppUTest`  
+Build Automation: `Make`
 
 
 ## Structure
