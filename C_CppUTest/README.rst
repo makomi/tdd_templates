@@ -26,14 +26,15 @@ Makefile targets
 * ``make test``: compile and run test application
 
 
+Toolchain
+=========
+This will install all necessary tools::
+
+    $ sudo apt-get install gcc g++ make cpputest
+
+
 CppUTest
 ========
-
-Installation
-------------
-::
-
-    $ sudo apt-get install cpputest
 
 Manual
 ------
