@@ -14,9 +14,9 @@ Structure
 
 Source files
 
-* ``src/main.c``: the application's entry point
-* ``src/module.*``: the application's functions that shall be tested
-* ``test/UnitTests.cc``: unit tests; runs as a separate application
+* ``src/main.c``: the main application's entry point
+* ``src/module.*``: the main application's functions that shall be tested
+* ``test/UnitTests.cc``: unit tests; runs as a separate test application
 
 Makefile targets
 
