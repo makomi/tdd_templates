@@ -2,11 +2,11 @@
 C with CppUTest
 ===============
 
-=====================  ============
-Programming language:  **C**
-Testing framework:     **CppUTest**
-Build automation:      **Make**
-=====================  ============
+=====================  ===========
+Programming language:  `C`_
+Testing framework:     `CppUTest`_
+Build automation:      `Make`_
+=====================  ===========
 
 
 Structure
@@ -53,3 +53,7 @@ In addition to cloning this repository, it is possible to call scripts located i
     $ whereis cpputest
     cpputest: /usr/share/cpputest
 
+
+.. _C: https://en.wikipedia.org/wiki/C_programming_language
+.. _CppUTest: https://cpputest.github.io/
+.. _Make: https://en.wikipedia.org/wiki/Make_%28software%29
