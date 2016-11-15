@@ -77,7 +77,7 @@ CppUTest
 Manual
 ------
 
-Have a look at the `CppUTest manual <https://cpputest.github.io/manual.html>`_ for information on commonly used assertions, command line switches, additional memory leak detection, mocks, and more.
+Have a look at the `CppUTest manual`_ for information on commonly used assertions, command line switches, additional memory leak detection, mocks, and more.
 
 Scripts
 -------
@@ -92,3 +92,4 @@ In addition to cloning this repository, it is possible to call scripts located i
 .. _CppUTest: https://cpputest.github.io/
 .. _Make: https://en.wikipedia.org/wiki/Make_%28software%29
 .. _TDD examples: https://github.com/makomi/tdd_examples/C_CppUTest/
+.. _CppUTest manual: https://cpputest.github.io/manual.html
