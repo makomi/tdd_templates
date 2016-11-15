@@ -37,6 +37,40 @@ This will install all necessary tools::
     $ sudo apt-get install gcc g++ make cpputest
 
 
+Getting started
+===============
+
+Setup
+----
+
+1. Clone the repo: ``$ git clone https://github.com/makomi/tdd_templates.git``
+2. Enter the template's folder: ``$ cd tdd_templates/C_CppUTest``
+
+TDD
+---
+
+A typical TDD cycle consisting of writing a test, writing the function code, and refactoring:
+
+1. Write a test in ``./test/UnitTests.cc``
+2. Compile and run the test: ``$ make test``
+3. Write function code in ``./src/module.h`` and ``./src/module.c``
+4. Compile and run the test: ``$ make test``
+5. Refactor if the test passes
+6. Repeat
+
+In order to run the application, you will have to also follow these steps:
+
+1. Write application code in ``./src/main.c``
+2. Compile and run the application: ``$ make main``
+
+At the end you might want to delete the temporary files: ``$ make clean``
+
+Example
+-------
+
+Have a look at the `TDD examples`_ repository to see this template in action.
+
+
 CppUTest
 ========
 
@@ -57,3 +91,4 @@ In addition to cloning this repository, it is possible to call scripts located i
 .. _C: https://en.wikipedia.org/wiki/C_programming_language
 .. _CppUTest: https://cpputest.github.io/
 .. _Make: https://en.wikipedia.org/wiki/Make_%28software%29
+.. _TDD examples: https://github.com/makomi/tdd_examples/C_CppUTest/
