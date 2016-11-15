@@ -4,7 +4,7 @@ C with CppUTest
 
 =====================  ===========
 Programming language:  `C`_
-Testing framework:     `CppUTest`_
+Unit test framework:   `CppUTest`_
 Build automation:      `Make`_
 =====================  ===========
 
