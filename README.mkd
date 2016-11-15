@@ -63,6 +63,8 @@ This collection still lacks many common programming languages and unit testing f
 4. Push to your feature branch: `git push origin my-new-feature`
 5. Submit a [pull request][pr]
 
+Please follow the [contribution guidelines][contribution-guidelines] prior to making a pull request.
+
 
 ## License
 
@@ -81,5 +83,6 @@ You can get the newest version from the [project's website][project-website].
 [issues]: https://github.com/makomi/tdd_templates/issues
 [fork]: https://help.github.com/articles/fork-a-repo/
 [pr]: https://help.github.com/articles/creating-a-pull-request/
+[contribution-guidelines]: CONTRIBUTING.mkd
 [license-file]: LICENSE
 [project-website]: http://github.com/makomi/tdd_templates/
