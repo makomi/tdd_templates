@@ -18,8 +18,11 @@ specific changes.
   - [ ] `main`: compile and run the application
   - [ ] `test`: compile and run the tests
 
-- [ ] the project folder contains a `README.mkd` with the following content
+- [ ] the project folder contains a `README.rst` with the following content
   - [ ] explanation of the enclosed files' functions
   - [ ] list of `Makefile` targets (or sth. equivalent)
   - [ ] installation instructions for the testing framework (can be a link, if it is too much)
   - [ ] link to the testing framework's (online) documentation
+  - [ ] use either `Markdown`  (`.mkd`) or `reStructuredText` (`.rst`) for text files  
+   reStructuredText: [Quick Reference](http://docutils.sourceforge.net/docs/user/rst/quickref.html),
+   [Markup Specification](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html)
