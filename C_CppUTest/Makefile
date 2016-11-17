@@ -46,7 +46,7 @@ LD_LIBRARIES += -lCppUTestExt
 # default target
 all : $(MAIN).out $(UNITTESTS).out
 
-# dependency on the include files
+# dependence on the include files
 $(SRC_DIR)/%.o : $(SRC_DIR)/%.c $(SRC_DIR)/*.h
 	$(CC) -o $@ $< -c $(CFLAGS)
 
