@@ -27,9 +27,9 @@ Typical use cases
 Key features
 ------------
 
-* *Start coding right away*: Everything is in place; no further setup is needed
-* ``$ make test``: Compiling and running the tests is that easy
-* ``$ make main``: Will compile and execute the application
+* *Start coding right away.* Everything is in place; no further setup is needed.
+* ``$ make test`` compiles and runs the tests
+* ``$ make main`` compiles and executes the application
 
 
 Getting started
