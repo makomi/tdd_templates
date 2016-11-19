@@ -12,6 +12,8 @@ These TDD templates give you everything you need in order to start a small test 
 
 Everything is setup so you can immediately start coding: all necessary files exist and common build automation tools allow you to compile and run your application tests.
 
+The current focus lies on unit tests but integration tests might follow in the future.
+
 Typical use cases
 -----------------
 
