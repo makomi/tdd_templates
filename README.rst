@@ -10,7 +10,7 @@ What it does
 
 These TDD templates give you everything you need in order to start a small test driven project. They are sorted according to the programming language and unit testing framework they use.
 
-Everything is setup so you can immediately start coding: all necessary files exist and the ``Makefile`` allows you to compile and run your application via ``$ make main`` and your tests via ``$ make test``.
+Everything is setup so you can immediately start coding: all necessary files exist and common build automation tools allow you to compile and run your application tests.
 
 Typical use cases
 -----------------
@@ -28,35 +28,15 @@ Key features
 ------------
 
 * *Start coding right away.* Everything is in place; no further setup is needed.
-* ``$ make test`` compiles and runs the tests
-* ``$ make main`` compiles and executes the application
+* *Build targets* allow you to easily compile and run your tests or application.
 
 
 Getting started
 ===============
 
-Setup:
-
-#. Clone the repo: ``$ git clone https://github.com/makomi/tdd_templates.git``
-#. Enter a template's folder: ``$ cd tdd_templates/C_CppUTest``
-
-A typical TDD cycle consisting of writing a test, writing the function code, and refactoring:
-
-#. Write a test in ``./test/UnitTests.cc``
-#. Compile and run the test: ``$ make test``
-#. Write function code in ``./src/module.h` and `./src/module.c``
-#. Compile and run the test: ``$ make test``
-#. Refactor if the test passes
-#. Repeat
-
-In order to run the application, you will have to also follow these steps:
-
-#. Write application code in ``./src/main.c``
-#. Compile and run the application: ``$ make main``
-
-At the end you might want to delete the temporary files: ``$ make clean``
-
-Have a look at the `TDD examples`_ repository to see these templates in action.
+Each template contains a README describing how to perform a typical TDD cycle with it.
+Have a look at the `C_CppUTest`_ template for an example.
+You can also switch to the `TDD examples`_ repository to see these templates in action with actual application and test code.
 
 
 Contributing
@@ -88,6 +68,7 @@ You can get the newest version from the `project's website`_.
 
 
 
+.. _C_CppUTest: https://github.com/makomi/tdd_templates/tree/master/C_CppUTest
 .. _TDD examples: https://github.com/makomi/tdd_examples/
 .. _open issues: https://github.com/makomi/tdd_templates/issues
 .. _Fork it: https://help.github.com/articles/fork-a-repo/
