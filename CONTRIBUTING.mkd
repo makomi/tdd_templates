@@ -26,6 +26,7 @@ However, these guidelines ensure that your changes will blend in and reduce the 
  - `test`: compiles and runs the tests
 
 - [ ] It exists a README inside your template's folder with the following content:
+ - A list of the key technologies used by the template (programming language, test framework, build automation, ...)
  - The enclosed source files' purpose
  - Available `Makefile` build targets (or sth. equivalent)
  - Instructions for installing the necessary toolchain (compiler, testing framework, ...).  
