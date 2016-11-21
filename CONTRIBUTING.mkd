@@ -8,7 +8,7 @@ However, these guidelines ensure that your changes will blend in and reduce the 
 # Commit messages
 
 - [ ] They are written in imperative present tense, i.e. as *commands*:  
-  "Add x" instead of "Adding x" or "I added x."
+  `Add x` instead of `Adding x` or `I added x`.
 - [ ] Messages are prefixed with the name of the modified template followed by a colon,  
   e.g. `C_CppUTest/readme: Improve section 'Getting started'`.
 
