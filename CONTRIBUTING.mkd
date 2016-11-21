@@ -1,7 +1,7 @@
-Before making a pull request, please make sure your changes conform to the following guidelines.  
+Before making a pull request, please make sure your changes conform to the following guidelines.
 Depending on your specific changes, only very few may actually apply.
 
-**It is okay, if your pull request only fulfills some of them.**  
+**It is okay, if your pull request only fulfills some of them.**
 However, these guidelines ensure that your changes will blend in and reduce the maintainers' workload.
 
 
