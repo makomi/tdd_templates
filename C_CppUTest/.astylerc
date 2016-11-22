@@ -1,13 +1,13 @@
 ################################################################################
 # Options file for the source code beautifier "Artistic Style".
-# Manual: http://astyle.sourceforge.net/astyle.html
+# User manual: http://astyle.sourceforge.net/astyle.html
 ################################################################################
 
 
 # Brackets
 --style=allman
 
-# Bracket Modifiers
+# Bracket modifiers
 --attach-namespaces
 --attach-classes
 --attach-inlines
