@@ -40,3 +40,8 @@ However, these guidelines ensure that your changes will blend in and reduce the 
    [Tutorial](http://www.markdowntutorial.com/)
  - reStructuredText: [Quick Reference](http://docutils.sourceforge.net/docs/user/rst/quickref.html),
    [Markup Specification](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html)
+
+
+# Optional
+
+- [ ] The build automation tool provides a way to automatically enforce a certain source code formatting.
