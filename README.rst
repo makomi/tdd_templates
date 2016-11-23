@@ -51,9 +51,8 @@ Using a template for a Coding Dojo
 2. Enter the template's folder: ``$ cd tdd_templates/C_CppUTest``
 3. Checkout a new branch: ``$ git checkout -b dojo_yyyy-mm-dd``
 4. Have a look at the template's README. It explains how to perform a typical TDD cycle with the template, c.p. `C_CppUTest`_.
-5. Setup your IDE resp. editor so you can add your code to the template
-6. Write code by following the 3 step TDD cycle: red, green, refactor
-7. Commit your results for each step, e.g. ``$ git commit -am "Add test for 'loneliness'"``
+5. Write code by following the 3 step TDD cycle: red, green, refactor
+6. Commit your results for each step, e.g. ``$ git commit -am "Add test for 'loneliness'"``
 
 Last but not least: Have fun :)
 
