@@ -2,9 +2,8 @@
 #include <CppUTest/CommandLineTestRunner.h>
 #include <CppUTestExt/MockSupport.h>
 
-extern "C"
-{
-  #include "../src/module.h"
+extern "C" {
+#include "../src/module.h"
 }
 
 //------------------------------------------------------------------------------
@@ -12,39 +11,39 @@ extern "C"
 
 TEST_GROUP(FirstTestGroup)
 {
-  void setup()
-  {
-  }
+	void setup()
+	{
+	}
 
-  void teardown()
-  {
-  }
+	void teardown()
+	{
+	}
 };
 
 TEST(FirstTestGroup, FirstTest)
 {
-  // given
+	// given
 
-  // when
+	// when
 
-  // then
-  FAIL("Fail me!");
+	// then
+	FAIL("Fail me!");
 }
 
 TEST(FirstTestGroup, SecondTest)
 {
-  // given
+	// given
 
-  // when
+	// when
 
-  // then
-  STRCMP_EQUAL("hello", "world");
+	// then
+	STRCMP_EQUAL("hello", "world");
 }
 
 //------------------------------------------------------------------------------
 
 int main(int ac, char** av)
 {
-  return CommandLineTestRunner::RunAllTests(ac, av);
+	return CommandLineTestRunner::RunAllTests(ac, av);
 }
 
