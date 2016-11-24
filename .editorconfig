@@ -1,0 +1,19 @@
+################################################################################
+# This configuration file can be read by different editors and IDEs to help
+# unify the coding style. Have a look at the project's website for a
+# list of available editor plugins.
+#
+# Project's website: http://EditorConfig.org
+# Option reference : https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties
+################################################################################
+
+
+# Top-most editorconfig file
+root = true
+
+# General settings
+[*]
+charset = utf-8
+end_of_line = lf
+trim_trailing_whitespace = true
+#insert_final_newline = false
