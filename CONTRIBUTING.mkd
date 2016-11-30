@@ -45,3 +45,4 @@ However, these guidelines ensure that your changes will blend in and reduce the 
 # Optional
 
 - [ ] The build automation tool provides a way to automatically enforce a certain source code formatting.
+- [ ] It exists an `.editorconfig` file that allows editors and IDEs to automatically set all relevant style options.
