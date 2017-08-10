@@ -1,8 +1,8 @@
+#include "../src/module.hh"
+
 #include <CppUTest/TestHarness.h>
 #include <CppUTest/CommandLineTestRunner.h>
 #include <CppUTestExt/MockSupport.h>
-
-#include "../src/module.hh"
 
 //------------------------------------------------------------------------------
 // this is where the functions are tested
