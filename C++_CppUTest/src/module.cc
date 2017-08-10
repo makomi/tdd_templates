@@ -1,4 +1,4 @@
-#include "module.h"
+#include "module.hh"
 
 // definition of the application's functions
 

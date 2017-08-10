@@ -2,9 +2,7 @@
 #include <CppUTest/CommandLineTestRunner.h>
 #include <CppUTestExt/MockSupport.h>
 
-extern "C" {
-#include "../src/module.h"
-}
+#include "../src/module.hh"
 
 //------------------------------------------------------------------------------
 // this is where the functions are tested

@@ -20,14 +20,14 @@ MODULE = $(SRC_DIR)/module
 UNITTESTS = $(TEST_DIR)/UnitTests
 
 # general compiler options
-CFLAGS  = -g
-CFLAGS += -Wall
-CFLAGS += -Wextra
-#CFLAGS += -std=c99
-#CFLAGS += -pedantic
-#CFLAGS += -Werror
-#CFLAGS += -Wshadow
-#CFLAGS += -Wstrict-overflow
+CXXFLAGS  = -g
+CXXFLAGS += -Wall
+CXXFLAGS += -Wextra
+CXXFLAGS += -std=c++11
+#CXXFLAGS += -pedantic
+#CXXFLAGS += -Werror
+#CXXFLAGS += -Wshadow
+#CXXFLAGS += -Wstrict-overflow
 
 # compiler options for CppUTest
 CPPFLAGS = -I$(CPPUTEST_HOME)/include
@@ -47,12 +47,12 @@ LD_LIBRARIES += -lCppUTestExt
 all : $(MAIN).out $(UNITTESTS).out
 
 # dependence on the include files
-$(SRC_DIR)/%.o : $(SRC_DIR)/%.c $(SRC_DIR)/*.h
-	$(CC) -o $@ $< -c $(CFLAGS)
+$(SRC_DIR)/%.o : $(SRC_DIR)/%.cc $(SRC_DIR)/*.hh
+	$(CXX) -o $@ $< -c $(CXXFLAGS)
 
 # application
 $(MAIN).out : $(MAIN).o $(MODULE).o
-	$(CC) -o $@ $^ $(CFLAGS)
+	$(CXX) -o $@ $^ $(CXXFLAGS)
 
 # unit tests
 $(UNITTESTS).out : $(UNITTESTS).cc $(MODULE).o
@@ -86,7 +86,7 @@ clean :
 
 # ensure consistent source code formatting
 format :
-	@astyle --options=.astylerc "./*.c" "./*.h" "./*.cc"
+	@astyle --options=.astylerc "./*.cc" "./*.hh"
 
 # display synopsis
 help :
