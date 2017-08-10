@@ -5,6 +5,6 @@ int main()
 {
 	// this is where the functions are used
 
-	return 0;
+	return EXIT_SUCCESS;
 }
 
