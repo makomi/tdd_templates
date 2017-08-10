@@ -1,0 +1,72 @@
+################################################################################
+# Options file for the source code beautifier "Artistic Style".
+# User manual: http://astyle.sourceforge.net/astyle.html
+################################################################################
+
+
+# Brackets
+--style=allman
+
+# Bracket modifiers
+--attach-namespaces
+--attach-classes
+--attach-inlines
+--attach-extern-c
+
+# Tabs for indentation, and spaces for continuation line alignment
+--indent=tab
+
+# Identation
+#--indent-preproc-block
+--indent-preproc-define
+--indent-col1-comments
+--min-conditional-indent=0
+--max-instatement-indent=80
+
+# Padding
+--break-blocks
+--pad-header
+#--delete-empty-lines
+--align-pointer=type
+#--align-reference=name
+
+# Formatting
+#--add-brackets
+#--add-one-line-brackets
+--keep-one-line-blocks
+--keep-one-line-statements
+--convert-tabs
+--max-code-length=120
+
+
+# ------------------------------------------------------------------------------
+# Miscellaneous
+# ------------------------------------------------------------------------------
+
+# Do not retain a backup of the original file.
+# The original file is purged after it is formatted. 
+--suffix=none
+
+# For each directory in the command line,
+# process all subdirectories recursively.
+--recursive
+
+# Verbose display mode. Display optional information,
+# such as release number and statistical data.
+--verbose
+
+# Formatted files display mode. Display only the files
+# that have been formatted. Do not display files that are unchanged.
+#--formatted
+
+# Quiet display mode. Suppress all output except error messages.
+--quiet
+
+# Force use of the specified line end style. If no option is given,
+# the line ends will be determined automatically from the input file. 
+#
+# Options :    windows   linux   macold
+# Line end:     CR LF     LF       CR
+#
+# Note: Mac OS X uses LF, Mac OS 9 used CR
+#--lineend=linux
