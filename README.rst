@@ -17,7 +17,7 @@ What it does
 
 **The solution.** These templates provide you with such environments. Use them and focus on the coding: all necessary files exist and common build automation tools make it easy to compile and run your tests and application.
 
-The current focus lies on unit tests but integration tests might follow in the future.
+The current focus lies on unit tests but acceptance tests might follow in the future.
 
 Typical use cases
 -----------------
