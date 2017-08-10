@@ -25,7 +25,7 @@ Typical use cases
 * *Getting started with unit testing/ test-driven development (TDD)*
 
   Choose a template and start coding.
-  The README files will explain everything you need to know to get started.
+  The template's README file will explain everything to get started.
 
 * *Playing around with unit tests/ working on a code kata*
 
