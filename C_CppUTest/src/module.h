@@ -5,6 +5,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <string.h>
+#include <stdlib.h>
 
 // declaration of the application's functions as well as typedefs, enums, structs, etc.
 
