@@ -17,7 +17,7 @@ TEST_DIR = ./test
 # file names
 MAIN = $(SRC_DIR)/main
 MODULE = $(SRC_DIR)/module
-UNITTESTS = $(TEST_DIR)/UnitTests
+UNITTESTS = $(TEST_DIR)/ModuleTest
 TEST = $(TEST_DIR)/AllTests
 
 # general compiler options
