@@ -76,7 +76,7 @@ main : $(MAIN).out
 
 # unit tests
 test : $(TEST).out
-	@$^
+	@$^ -c
 
 
 ################
